@@ -25,7 +25,9 @@ function App() {
           ? <img src="./images/pattern-divider-desktop.svg" alt="divider" className="divider" />
           : <img src="./images/pattern-divider-mobile.svg" alt="divider" className="divider" />
       }
-      <button className="roll-advice" onClick={changeAdvice}><img src="./images/icon-dice.svg" alt="dice icon" /></button>
+      <button className="roll-advice" onClick={changeAdvice} >
+        <img src="./images/icon-dice.svg" alt="dice icon" />
+      </button>
     </div>
   );
 }
